@@ -28,7 +28,7 @@ import com.example.shoppinglist.ui.theme.ShoppingListTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+//        enableEdgeToEdge()
         setContent {
             ShoppingListTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
